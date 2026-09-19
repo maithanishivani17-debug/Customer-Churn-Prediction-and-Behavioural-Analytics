@@ -73,14 +73,15 @@ The project follows an end-to-end temporal customer churn prediction workflow, c
 5. Temporal Data Splitting
     Data was divided chronologically into training, validation and test periods. This ensured that future information was not used during model development and reduced the risk of data leakage.
 6. Model Development & Selection
+
     Three classification models were evaluated:
     * Logistic Regression
     * LightGBM
     * Random Forest
     Random Forest was selected based on its stronger validation performance, achieving 89% accuracy, 87% precision and 99% recall, with the highest F1-score and ROC-AUC among the evaluated models.
-7. Hyperparameter Tuning
+8. Hyperparameter Tuning
     GridSearchCV with temporal cross-validation was used to optimise the Random Forest model. The primary tuning metric was ROC-AUC.
-8. Final Evaluation & Feature Importance
+9. Final Evaluation & Feature Importantance
     The selected model was retrained using the combined training and validation data and assessed on the holdout test period. Model performance was evaluated using Accuracy, Precision, Recall, F1-score and ROC-AUC. Permutation importance was then used to examine the contribution of features to the model’s predictions.
 
 👥 **Key Customer Insights**
