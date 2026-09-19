@@ -78,22 +78,11 @@ The analysis identified clear differences in purchasing behaviour between churne
 * Customer purchasing patterns: Churned customers showed a sharp reduction in visits, spending and product range, while loyal customers generally maintained more regular and broader purchasing behaviour.
 * Category preferences: Fruit and Cigarettes were popular across both groups, while Salad and Deli were highlighted among churned customers and Paypoint and Milk among non-churned customers.
 
-📊 **Visual Results**
+## 📊 Visual Results
 
-Selected visualisations from the project are included below to highlight key patterns in customer churn and purchasing behaviour.
+The project report contains the key visualisations used throughout the analysis, including customer churn distribution, customer behavioural patterns, product diversity and feature importance.
 
-**Customer Churn Distribution**
-
-<img width="872" height="376" alt="image" src="https://github.com/user-attachments/assets/14c7547a-c9cb-490b-9dad-41b41e447b41" />
-
-**Customer Behaviour**
-
-<img width="398" height="322" alt="image" src="https://github.com/user-attachments/assets/6529699c-f4db-4a1c-88fe-7b88043c0296" /><img width="834" height="356" alt="image" src="https://github.com/user-attachments/assets/f12d4e93-7c1f-4cd0-a889-1667bf8b981b" />
-
-**Customer Product Diversity**
-
-<img width="760" height="242" alt="image" src="https://github.com/user-attachments/assets/2df3f4d7-a063-486e-854b-b8e4abeba578" />
-<img width="908" height="296" alt="image" src="https://github.com/user-attachments/assets/9a39f0ca-9017-4049-b5f2-a7d8cbf0540b" />
+**[View Full Project Report](Business_report.docx)**
 
 📄 **Project Documentation**
 
