@@ -101,3 +101,33 @@ For a detailed explanation of the project, including the business problem, metho
 
 https://github.com/maithanishivani17-debug/Customer_Churn_Prediction_Analytics/blob/main/Business_report.docx
 
+💻 **Code & Analysis Notebook**
+
+The project analysis was developed in **Databricks**, combining **SQL and Python** for data preparation, feature engineering, exploratory analysis and machine learning.
+
+The notebook covers:
+
+- Transaction data preparation and validation
+
+- Customer-level feature engineering using SQL
+
+- Customer behavioural analysis
+
+- Churn labelling based on the 42-day inactivity definition
+
+- Temporal training, validation and test data splitting
+
+- Development and comparison of Logistic Regression, LightGBM and Random Forest models
+
+- Hyperparameter tuning using GridSearchCV and temporal cross-validation
+
+- Model evaluation using Accuracy, Precision, Recall, F1-score and ROC-AUC
+
+- Permutation-based feature importance analysis
+
+**[View the Databricks Analysis Notebook](notebooks/FoodCorp_Customer_Churn_Databricks.html)**
+
+The extracted notebook cells are also provided for easier inspection of the underlying SQL and Python code:
+
+**[View Extracted Databricks Code](notebooks/Extracted_Databricks_Cells.md)**
+
