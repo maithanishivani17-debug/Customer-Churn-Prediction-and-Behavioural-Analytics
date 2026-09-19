@@ -2,16 +2,21 @@
 
 ### Python | SQL | Databricks | Customer Analytics | Machine Learning
 
-![Python](https://img.shields.io/badge/Python-Analytics-blue)
+<p align="left">
 
-![SQL](https://img.shields.io/badge/SQL-Feature%20Engineering-blue)
+  <img src="https://img.shields.io/badge/Python-Analytics-blue" />
 
-![Databricks](https://img.shields.io/badge/Databricks-Analytics-red)
+  <img src="https://img.shields.io/badge/SQL-Feature%20Engineering-blue" />
 
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Churn%20Prediction-green)
+  <img src="https://img.shields.io/badge/Databricks-Analytics-red" />
 
-![Domain](https://img.shields.io/badge/Domain-Customer%20Analytics-orange)
+  <img src="https://img.shields.io/badge/Machine%20Learning-Churn%20Prediction-green" />
 
+  <img src="https://img.shields.io/badge/Domain-Customer%20Analytics-orange" />
+
+</p>
+
+---
 ---
 
 ## 1. Project Overview
