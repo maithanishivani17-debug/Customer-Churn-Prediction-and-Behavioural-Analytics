@@ -99,8 +99,7 @@ Selected visualisations from the project are included below to highlight key pat
 
 For a detailed explanation of the project, including the business problem, methodology, feature engineering, model development, evaluation and results, see the full project report:
 
-**https://github.com/maithanishivani17-debug/Customer_Churn_Prediction_Analytics/blob/main/Business_report.docx**
-
+**[View Full Project Report](Business_report.docx)**
 
 💻 **Code & Analysis Notebook**
 
@@ -128,8 +127,6 @@ The notebook covers:
 
 
 The extracted notebook cells are also provided for easier inspection of the underlying SQL and Python code:
-
-**https://github.com/maithanishivani17-debug/Customer_Churn_Prediction_Analytics/blob/main/Churn_Prediction_Code.html**
 
 **[View Databricks Analysis Notebook](Churn_Prediction_Code.ipynb)**
 
