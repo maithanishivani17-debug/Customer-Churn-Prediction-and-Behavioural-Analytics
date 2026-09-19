@@ -90,5 +90,12 @@ Selected visualisations from the project are included below to highlight key pat
 
 <img width="398" height="322" alt="image" src="https://github.com/user-attachments/assets/6529699c-f4db-4a1c-88fe-7b88043c0296" /><img width="834" height="356" alt="image" src="https://github.com/user-attachments/assets/f12d4e93-7c1f-4cd0-a889-1667bf8b981b" />
 
+**Customer Product Diversity**
+
+<img width="760" height="242" alt="image" src="https://github.com/user-attachments/assets/2df3f4d7-a063-486e-854b-b8e4abeba578" />
+<img width="908" height="296" alt="image" src="https://github.com/user-attachments/assets/9a39f0ca-9017-4049-b5f2-a7d8cbf0540b" />
+
+
+
 
 
