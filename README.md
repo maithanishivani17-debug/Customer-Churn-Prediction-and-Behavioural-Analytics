@@ -73,26 +73,44 @@ The project follows an end-to-end temporal customer churn prediction workflow, c
 5. Temporal Data Splitting
     Data was divided chronologically into training, validation and test periods. This ensured that future information was not used during model development and reduced the risk of data leakage.
 6. Model Development & Selection
-
     Three classification models were evaluated:
     * Logistic Regression
     * LightGBM
     * Random Forest
-    Random Forest was selected based on its stronger validation performance, achieving 89% accuracy, 87% precision and 99% recall, with the highest F1-score and ROC-AUC among the evaluated models.
-8. Hyperparameter Tuning
+    Random Forest was selected based on its stronger validation performance among the evaluated models.
+7. Hyperparameter Tuning
     GridSearchCV with temporal cross-validation was used to optimise the Random Forest model. The primary tuning metric was ROC-AUC.
-9. Final Evaluation & Feature Importantance
+8. Final Evaluation & Feature Importance
     The selected model was retrained using the combined training and validation data and assessed on the holdout test period. Model performance was evaluated using Accuracy, Precision, Recall, F1-score and ROC-AUC. Permutation importance was then used to examine the contribution of features to the model’s predictions.
 
 👥 **Key Customer Insights**
 
 The analysis identified clear differences in purchasing behaviour between churned and non-churned customers:
+* **Product diversity:** Non-churned customers purchased approximately three times more unique products than churned customers.
+* **Visit frequency:** Retained customers visited more than twice as frequently in the previous month compared with churned customers.
+* **Declining engagement:** Customers who later churned showed noticeable reductions in shopping visits and spending in the weeks before becoming inactive.
+* **Category preferences:** Fruit and Cigarettes were popular across both groups, while Salad and Deli were highlighted among churned customers and Paypoint and Milk among non-churned customers.h groups, while Salad and Deli were highlighted among churned customers and Paypoint and Milk among non-churned customers.
 
-* Product diversity: Non-churned customers purchased approximately three times more unique products than churned customers.
-* Visit frequency: Retained customers visited more than twice as frequently in the previous month compared with churned customers.
-* Declining engagement: Churned customers showed noticeable reductions in shopping visits and spending in the weeks before becoming inactive.
-* Customer purchasing patterns: Churned customers showed a sharp reduction in visits, spending and product range, while loyal customers generally maintained more regular and broader purchasing behaviour.
-* Category preferences: Fruit and Cigarettes were popular across both groups, while Salad and Deli were highlighted among churned customers and Paypoint and Milk among non-churned customers.
+💼 **Business Interpretation**
+
+The findings suggest that customer retention is associated with maintaining regular engagement and a broader range of purchasing activity.
+
+* **Early intervention:** Changes in visit frequency, spending and recency can be monitored as potential signals of declining customer engagement.
+* **Customer engagement:** The relationship between product diversity and retention suggests an opportunity to encourage customers to explore a broader range of products.
+* **Targeted retention:** Differences in purchasing behaviour and category preferences can support more tailored customer segments and promotional activities.
+* **Win-back strategies:** Customers showing patterns of declining engagement could be considered for targeted win-back campaigns before they become inactive.
+* **Loyalty strategies:** Customers demonstrating regular and broader purchasing behaviour could be supported through appropriate loyalty initiatives.
+* **Predictive decision support:** The churn model provides an analytical approach for identifying customers who may be at higher risk of becoming inactive, supporting more targeted retention activity.
+  
+🎯 **Conclusion**
+
+This project demonstrates how transactional data can be used to move beyond descriptive reporting towards behavioural analysis and predictive customer analytics.
+
+The analysis identified meaningful differences between churned and non-churned customers, particularly in engagement, spending, recency and product diversity. These behavioural patterns were incorporated into a machine learning workflow using a chronological train-validation-test approach.
+
+Among the evaluated models, Random Forest provided the strongest validation performance and was subsequently retrained using the combined training and validation data before evaluation on a reserved future test period.
+
+Overall, the project demonstrates how customer transaction data can be transformed into behavioural insights and predictive signals that provide a data-driven basis for targeted retention, win-back, product engagement and loyalty strategies.
 
  📊 **Visual Results**
 
