@@ -1,4 +1,12 @@
-# Customer_Churn_Prediction_Analytics
+# Customer Churn Prediction & Behavioural Analytics
+
+**Python | SQL | Databricks | Machine Learning | Customer Analytics**
+
+`Python` `SQL` `Databricks` `Machine Learning` `Customer Analytics`
+
+---
+
+## 1. Project Overview
 Customer churn prediction using transactional data, feature engineering, Databricks, and machine learning.
 
 📌 **Project Overview**
