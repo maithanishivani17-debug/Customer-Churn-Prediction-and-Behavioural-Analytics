@@ -83,6 +83,34 @@ The project follows an end-to-end temporal customer churn prediction workflow, c
 8. Final Evaluation & Feature Importance
     The selected model was retrained using the combined training and validation data and assessed on the holdout test period. Model performance was evaluated using Accuracy, Precision, Recall, F1-score and ROC-AUC. Permutation importance was then used to examine the contribution of features to the model’s predictions.
 
+   ## 📈 Model Performance
+
+Three classification models were evaluated:
+
+- Logistic Regression
+
+- LightGBM
+
+- Random Forest
+
+Random Forest achieved the strongest validation performance among the evaluated models.
+
+| Metric | Random Forest – Validation |
+
+|---|---:|
+
+| Accuracy | 89% |
+
+| Precision | 87% |
+
+| Recall | 99% |
+
+| F1-score | 93% |
+
+| ROC-AUC | 0.90 |
+
+The Random Forest model was subsequently retrained using the combined training and validation data and evaluated on the holdout test period.
+
 👥 **Key Customer Insights**
 
 The analysis identified clear differences in purchasing behaviour between churned and non-churned customers:
