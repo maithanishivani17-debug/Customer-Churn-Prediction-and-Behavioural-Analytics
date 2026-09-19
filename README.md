@@ -93,13 +93,11 @@ The analysis identified clear differences in purchasing behaviour between churne
 * Customer purchasing patterns: Churned customers showed a sharp reduction in visits, spending and product range, while loyal customers generally maintained more regular and broader purchasing behaviour.
 * Category preferences: Fruit and Cigarettes were popular across both groups, while Salad and Deli were highlighted among churned customers and Paypoint and Milk among non-churned customers.
 
- 📊 **Visual Results**
+## 📊 **Visual Results**
 
 The project report contains the key visualisations used throughout the analysis, including customer churn distribution, customer behavioural patterns, product diversity and feature importance.
 
-**[View Full Project Report](Business_report.docx)**
-
-📄 **Project Documentation**
+## 📄 **Project Documentation**
 
 For a detailed explanation of the project, including the business problem, methodology, feature engineering, model development, evaluation and results, see the full project report:
 
@@ -130,7 +128,6 @@ The notebook covers:
 - Permutation-based feature importance analysis
 
 
-The extracted notebook cells are also provided for easier inspection of the underlying SQL and Python code:
+The Databricks notebook is provided as a Jupyter Notebook file for inspection of the underlying SQL and Python analysis.
 
 **[View Databricks Analysis Notebook](Churn_Prediction_Code.ipynb)**
-
