@@ -1,8 +1,20 @@
 # Customer Churn Prediction & Behavioural Analytics
 
-`Python` `SQL` `Databricks` `Machine Learning` `Customer Analytics`
+### Python | SQL | Databricks | Customer Analytics | Machine Learning
+
+![Python](https://img.shields.io/badge/Python-Analytics-blue)
+
+![SQL](https://img.shields.io/badge/SQL-Feature%20Engineering-blue)
+
+![Databricks](https://img.shields.io/badge/Databricks-Analytics-red)
+
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Churn%20Prediction-green)
+
+![Domain](https://img.shields.io/badge/Domain-Customer%20Analytics-orange)
 
 ---
+
+## 1. Project Overview
 
 ## 1. Project Overview
 Customer churn prediction using transactional data, feature engineering, Databricks, and machine learning.
