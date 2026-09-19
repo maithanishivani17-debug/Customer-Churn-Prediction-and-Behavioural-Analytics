@@ -98,8 +98,9 @@ Selected visualisations from the project are included below to highlight key pat
 📄 **Project Documentation**
 
 For a detailed explanation of the project, including the business problem, methodology, feature engineering, model development, evaluation and results, see the full project report:
+**
+https://github.com/maithanishivani17-debug/Customer_Churn_Prediction_Analytics/blob/main/Business_report.docx**
 
-https://github.com/maithanishivani17-debug/Customer_Churn_Prediction_Analytics/blob/main/Business_report.docx
 
 💻 **Code & Analysis Notebook**
 
@@ -125,9 +126,9 @@ The notebook covers:
 
 - Permutation-based feature importance analysis
 
-**[View the Databricks Analysis Notebook](notebooks/FoodCorp_Customer_Churn_Databricks.html)**
 
 The extracted notebook cells are also provided for easier inspection of the underlying SQL and Python code:
 
 **https://github.com/maithanishivani17-debug/Customer_Churn_Prediction_Analytics/blob/main/Churn_Prediction_Code.html**
+
 
