@@ -129,5 +129,5 @@ The notebook covers:
 
 The extracted notebook cells are also provided for easier inspection of the underlying SQL and Python code:
 
-**[View Extracted Databricks Code](notebooks/Extracted_Databricks_Cells.md)**
+**https://github.com/maithanishivani17-debug/Customer_Churn_Prediction_Analytics/blob/main/Churn_Prediction_Code.html**
 
