@@ -33,3 +33,37 @@ The data was used to develop customer-level behavioural features, including purc
 🔐 **Dataset Accessibility**
 
 Note: The underlying transactional dataset is not included in this repository due to data accessibility restrictions. The repository therefore focuses on the analytical code, methodology, and project findings.
+
+🛠️ **Tools & Technologies**
+
+Python | SQL | Databricks | Pandas | Scikit-learn | LightGBM | Temporal Analysis | Machine Learning | Feature Engineering
+
+🔬 **Methodology**
+
+The project follows an end-to-end temporal customer churn prediction workflow, combining transactional analysis, feature engineering and machine learning.
+
+1. Data Validation & Preparation
+    Transaction data was checked for data quality, including customer, product, receipt and transaction-date information.
+2. Churn Labelling
+    Customers were classified as churned when they had more than 42 consecutive days without a purchase.
+3. Feature Engineering
+    SQL was used to create features capturing recent and historical customer behaviour, including:
+    * Store visits and total spend
+    * Purchase recency
+    * Unique products and stores
+    * Lagged visits and spending
+    * Behaviour across 1-week, 4-week and 7-week periods
+4. Feature Analysis
+    Feature relationships were analysed to identify highly correlated and overlapping variables before modelling.
+5. Temporal Data Splitting
+    Data was divided chronologically into training, validation and test periods. This ensured that future information was not used during model development and reduced the risk of data leakage.
+6. Model Development & Selection
+    Three classification models were evaluated:
+    * Logistic Regression
+    * LightGBM
+    * Random Forest
+    Random Forest was selected based on its stronger validation performance, achieving 89% accuracy, 87% precision and 99% recall, with the highest F1-score and ROC-AUC among the evaluated models.
+7. Hyperparameter Tuning
+    GridSearchCV with temporal cross-validation was used to optimise the Random Forest model. The primary tuning metric was ROC-AUC.
+8. Final Evaluation & Feature Importance
+    The selected model was retrained using the combined training and validation data and assessed on the holdout test period. Model performance was evaluated using Accuracy, Precision, Recall, F1-score and ROC-AUC. Permutation importance was then used to examine the contribution of features to the model’s predictions.
