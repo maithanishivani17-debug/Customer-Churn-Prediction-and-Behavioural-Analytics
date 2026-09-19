@@ -95,7 +95,11 @@ Selected visualisations from the project are included below to highlight key pat
 <img width="760" height="242" alt="image" src="https://github.com/user-attachments/assets/2df3f4d7-a063-486e-854b-b8e4abeba578" />
 <img width="908" height="296" alt="image" src="https://github.com/user-attachments/assets/9a39f0ca-9017-4049-b5f2-a7d8cbf0540b" />
 
+📄 **Project Documentation**
 
+For a detailed explanation of the project, including the business problem, methodology, feature engineering, model development, evaluation and results, see the full project report:
+
+documentation/FoodCorp_Customer_Churn_Project_Report.pdf
 
 
 
