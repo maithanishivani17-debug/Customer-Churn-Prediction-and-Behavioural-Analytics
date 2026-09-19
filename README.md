@@ -82,11 +82,11 @@ The analysis identified clear differences in purchasing behaviour between churne
 
 Selected visualisations from the project are included below to highlight key patterns in customer churn and purchasing behaviour.
 
-Customer Churn Distribution
+**Customer Churn Distribution**
 
 <img width="872" height="376" alt="image" src="https://github.com/user-attachments/assets/14c7547a-c9cb-490b-9dad-41b41e447b41" />
 
-Customer Behaviour
+**Customer Behaviour**
 
 <img width="398" height="322" alt="image" src="https://github.com/user-attachments/assets/6529699c-f4db-4a1c-88fe-7b88043c0296" /><img width="834" height="356" alt="image" src="https://github.com/user-attachments/assets/f12d4e93-7c1f-4cd0-a889-1667bf8b981b" />
 
