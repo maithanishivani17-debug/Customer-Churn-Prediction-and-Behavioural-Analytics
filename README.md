@@ -1,7 +1,5 @@
 # Customer Churn Prediction & Behavioural Analytics
 
-### Python | SQL | Databricks | Customer Analytics | Machine Learning
-
 <p align="left">
 
   <img src="https://img.shields.io/badge/Python-Analytics-blue" />
@@ -16,7 +14,6 @@
 
 </p>
 
----
 ---
 
 ## 1. Project Overview
