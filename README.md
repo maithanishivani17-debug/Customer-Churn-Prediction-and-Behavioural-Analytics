@@ -99,7 +99,5 @@ Selected visualisations from the project are included below to highlight key pat
 
 For a detailed explanation of the project, including the business problem, methodology, feature engineering, model development, evaluation and results, see the full project report:
 
-documentation/FoodCorp_Customer_Churn_Project_Report.pdf
-
-
+https://github.com/maithanishivani17-debug/Customer_Churn_Prediction_Analytics/blob/main/Business_report.docx
 
