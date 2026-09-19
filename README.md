@@ -67,3 +67,21 @@ The project follows an end-to-end temporal customer churn prediction workflow, c
     GridSearchCV with temporal cross-validation was used to optimise the Random Forest model. The primary tuning metric was ROC-AUC.
 8. Final Evaluation & Feature Importance
     The selected model was retrained using the combined training and validation data and assessed on the holdout test period. Model performance was evaluated using Accuracy, Precision, Recall, F1-score and ROC-AUC. Permutation importance was then used to examine the contribution of features to the model’s predictions.
+
+👥 **Key Customer Insights**
+
+The analysis identified clear differences in purchasing behaviour between churned and non-churned customers:
+
+* Product diversity: Non-churned customers purchased approximately three times more unique products than churned customers.
+* Visit frequency: Retained customers visited more than twice as frequently in the previous month compared with churned customers.
+* Declining engagement: Churned customers showed noticeable reductions in shopping visits and spending in the weeks before becoming inactive.
+* Customer purchasing patterns: Churned customers showed a sharp reduction in visits, spending and product range, while loyal customers generally maintained more regular and broader purchasing behaviour.
+* Category preferences: Fruit and Cigarettes were popular across both groups, while Salad and Deli were highlighted among churned customers and Paypoint and Milk among non-churned customers.
+
+📊 **Visual Results**
+
+Selected visualisations from the project are included below to highlight key patterns in customer churn and purchasing behaviour.
+
+Customer Churn Distribution
+<img width="872" height="376" alt="image" src="https://github.com/user-attachments/assets/14c7547a-c9cb-490b-9dad-41b41e447b41" />
+
